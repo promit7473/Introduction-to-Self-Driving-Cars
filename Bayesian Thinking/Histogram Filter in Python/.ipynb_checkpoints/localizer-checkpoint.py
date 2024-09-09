@@ -1,4 +1,4 @@
-# import pdb
+import pdb
 from helpers import normalize, blur
 
 def initialize_beliefs(grid):
@@ -14,6 +14,7 @@ def initialize_beliefs(grid):
         beliefs.append(row)
     return beliefs
 
+#Normalizations
 def sense(color, grid, beliefs, p_hit, p_miss):
     new_beliefs = []
     height = len(grid)
