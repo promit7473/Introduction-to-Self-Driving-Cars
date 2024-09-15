@@ -16,16 +16,16 @@ class Car(object):
     
     # Car constructor 
     # Called when you write car.Car(_, _, _)
-    def __init__(self, position, velocity, world):
+    def __init__(self, position, velocity, world, color = 'r'):
         """Initializes Car with some position, velocity, and a world to traverse."""
         
         # Initialize the state
-        # Position is a list [y, x] and so is velocity [vy, vx]
+        # Position is a list [y, x] and so is velocity [vy, vx
         self.state = [position, velocity]
         self.world = world # world is a 2D list of values that range from 0-1
         
         # Set the default color
-        self.color = 'r'
+        self.color = color
         
         # Initalize the path
         self.path = []
@@ -122,7 +122,7 @@ class Car(object):
         rows = len(self.world)
         cols = len(self.world[0])
 
-        ax.set_xticks([x-0.5 for x in range(1,cols)],minor=True )
+        ax.set_xticks([x-0.5 for x in range(1,cols)],minor=True)
         ax.set_yticks([y-0.5 for y in range(1,rows)],minor=True)
 
         # Plot grid on minor axes in gray (width = 2)
