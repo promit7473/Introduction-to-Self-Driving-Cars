@@ -14,7 +14,7 @@ The Course contents are segregated into the following.
 
 ## Project
 0. [Joy Ride]
-1. [Implement a Matrix Class]
+1. [Implement a Matrix Class] - <color = 'red'><a href="https://github.com/promit7473/Implementing-a-Matrix-Class.git">Project Link</a></color>
 2. [Translate Python to C++]
 3. [Optimize Histogram Filter]
 4. [Implement Route Planner]
