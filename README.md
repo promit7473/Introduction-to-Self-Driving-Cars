@@ -13,8 +13,7 @@ The Course contents are segregated into the following.
 8. [Computer Vision And Machine Learning]
 
 ## Project
-0. [Joy Ride]
-1. [Implement a Matrix Class]
+1. [Implement a Matrix Class] <a href="https://github.com/promit7473/Implementing-a-Matrix-Class.git" style="color: red;">Project Link</a>
 2. [Translate Python to C++]
 3. [Optimize Histogram Filter]
 4. [Implement Route Planner]
