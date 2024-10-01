@@ -20,4 +20,8 @@ The Course contents are segregated into the following.
 5. [Reconstructing Trajectories from Sensor Data]
 6. [Traffic Light Classifier]
 
+<p align="center">
+  <img src="images/self_driving_car.gif" alt="Demo GIF" width="500">
+</p>
+
 
